@@ -95,8 +95,6 @@ class SudokuSolver():
         self.problem = problem
 
     def solver(self):
-        # TO DO: need to write solver
-        # Your code goes here...
         self.puzzle = [[0] * 9 for _ in range(9)]
         global finished
         finished = set('')
